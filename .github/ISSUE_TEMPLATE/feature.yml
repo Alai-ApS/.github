@@ -1,0 +1,31 @@
+name: "💡 Planned Feature"
+description: Create a new ticket for a new feature.
+title: "[FEATURE] - <title>"
+labels: [
+  "enhancement"
+]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Summary"
+      description: Provide a brief explanation of the feature
+      placeholder: Describe in a few lines your feature request
+    validations:
+      required: true
+  - type: textarea
+    id: unresolved_question
+    attributes:
+      label: "Unresolved questions"
+      description: What questions still remain unresolved ?
+      placeholder: Identify any unresolved issues.
+    validations:
+      required: false
+  - type: textarea
+    id: dod
+    attributes:
+      label: "Definition of Done"
+      description: What is the acceptance criteria?
+      placeholder: When can this be considered completed?
+    validations:
+      required: true
