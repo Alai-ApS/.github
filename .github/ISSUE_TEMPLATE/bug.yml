@@ -10,7 +10,7 @@ body:
     attributes:
       label: "Description"
       description: Please enter an explicit description of your issue
-      placeholder: Short and explicit description of your incident...
+      placeholder: Short and explicit description of your incident (you can paste screenshots)...
     validations:
       required: true
   - type: textarea
@@ -23,15 +23,6 @@ body:
         2. Click on '....'
         3. Scroll down to '....'
         4. See error
-      value:
-      render: bash
-    validations:
-      required: false
-  - type: textarea
-    id: screenshot
-    attributes:
-      label: "Screenshots"
-      description: If applicable, add screenshots to help explain your problem.
       value:
       render: bash
     validations:
